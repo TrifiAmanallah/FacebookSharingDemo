@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="info.androidlift.facebooksharingdemo.MainActivity"
+    android:orientation="vertical">
+
+    <com.facebook.share.widget.LikeView
+        android:text="Like Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/btnLike" />
+
+    <Button
+        android:text="Share Links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="shareLinks"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnShareLinks" />
+
+    <Button
+        android:text="Share Photos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sharePhotos"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSharePhotos" />
+
+    <Button
+        android:text="Share Videos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="shareVideo"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnShareVideos" />
+
+</LinearLayout>
